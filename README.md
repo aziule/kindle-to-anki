@@ -6,6 +6,8 @@ Convert your Amazon Kindle clippings to Anki cards (one deck per book) and easil
 
 Built with Python `3.8` for Anki `2.1.48`.
 
+[![Screencast][screencast]](doc/screencast.mov)
+
 ## Getting Started
 
 The following steps will guide you through the process to get a local copy up and running.
@@ -48,8 +50,10 @@ There are two steps to convert your clippings to Anki cards:
 3. From the project's root directory, using your terminal, run:
    ```sh
    # Note: replace the path to My Clippings.txt 
-   python ./cli.py --clippings=My\ Clippings.txt --output=./gen
+   python ./cli.py --clippings=My\ Clippings.txt
    ```
+   
+The packages will be located in the `gen` directory of the project.
 
 You should see something like this:
 
@@ -66,7 +70,7 @@ First, you need to open Anki:
 Then, for each book, you will need to repeat the following:
 
 1. Click "Import File"
-2. Head to the project directory and find the `gen` folder
+2. Head to the project directory, under the `gen` folder
 3. Select the `*.apkg` file you would like to import and import it
 4. Check the database (Tools > Check Database)
 5. The cards should be visible in the "Browse" tab
@@ -99,5 +103,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
+[screencast]: doc/screencast.mov
 [step-1-convert]: doc/1_convert.png
 [step-2-import]: doc/2_import.png
