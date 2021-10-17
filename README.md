@@ -6,7 +6,7 @@ Convert your Amazon Kindle clippings to Anki cards (one deck per book) and easil
 
 Built with Python `3.8` for Anki `2.1.48`.
 
-[![Screencast][screencast]](doc/screencast.mov)
+[![Screencast][screencast]](doc/screencast.gif)
 
 ## Getting Started
 
@@ -103,6 +103,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[screencast]: doc/screencast.mov
+[screencast]: doc/screencast.gif
 [step-1-convert]: doc/1_convert.png
 [step-2-import]: doc/2_import.png
